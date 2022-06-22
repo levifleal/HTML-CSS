@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    background-color: #B8DEEC;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+}
+
+h1{
+    color: #579CB5;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{
+    color: #325A69;
+    font-family: 'Times New Roman', Times, serif;
+}
+#principal{
+    text-align: center;
+    color: #B8DEEC;
+    background-color: #526269;
+    border-radius: 20px;
+
+}

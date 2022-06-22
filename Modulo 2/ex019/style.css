@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+body{
+    background-color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h1{
+    color: antiquewhite;
+    text-align: center;
+    background-color: black;
+    border-radius: 5px;
+}
+
+a{
+    color: antiquewhite;
+    text-decoration: none;
+
+}
+
+a:hover{
+    color: cadetblue;
+    text-decoration: underline;
+}
+
+ul{
+    display: none;
+
+    margin: 0px;
+    list-style-type: none;
+    
+}
+
+li{
+    display: inline-block;
+    padding: 7.5px;
+    font-size: normal;
+    margin: 5px;
+    background-color: rgb(23, 66, 66);
+    border-radius: 7.5px;
+}
+
+h2:hover > ul{
+    display: block;
+}
+

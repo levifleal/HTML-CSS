@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens adaptativas</title>
+</head>
+<body>
+    <h1>midias no html5</h1>
+    <hr>
+    <h2>Imagens dinamicas</h2>
+    <p>aumente ou diminua a tela</p>
+    <picture>
+        <source media="(min-width: 1050px)" srcset="imgs/foto-g.png" type="image/png">
+        <source media="(min-width: 750px )" srcset="imgs/foto-m.png" type="image/png">
+       <img src="imgs/foto-p.png" alt="imagem">
+    </picture>   
+    
+    <h2>Reproduzindo audio</h2>
+    <p>colocando audio na pagina</p>
+    <audio preload="metadata" controls loop >
+        <source src="midia/As You Fade Away - NEFFEX.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador noa consegue reproduzir <a href="midia/As You Fade Away - NEFFEX.mp3">clique aqui para baixar o audio</a></p>
+    </audio>
+    
+    
+</body>
+</html>
