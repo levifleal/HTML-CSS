@@ -40,8 +40,7 @@ header{
 
 #logo > img{
     display: flex;
-    width: 75px;
-    height: 75px;
+    max-width: 75px;
 }
 
 
@@ -114,11 +113,11 @@ main{
 #btn{
     display: none;
     height: 50px;
-    width: 50px;
-    margin-left: auto;
+    width: 100vw;
 }
 #btn img{
-    width: 30px;
+    max-width: 30px;
+    
 }
 
 @media(max-width:774px){
@@ -126,6 +125,7 @@ main{
         display: block;
         border: none;
         background:none;
+        background-color: #E22120;
         cursor: pointer;
         z-index: 10000;
     }
@@ -134,7 +134,7 @@ main{
         position: absolute;
         background-color: #E22120;
         right: 0px;
-        top: 125px;
+        top: 175px;
         flex-direction: column;
         width: 100%;
         height: 0px;
